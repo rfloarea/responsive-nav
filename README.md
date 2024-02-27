@@ -66,3 +66,58 @@ Now we update out html. This is what my `left-nav` div looks like:
 </div>
 ```
 I got my asset from [favicon > alien monster](https://favicon.io/emoji-favicons/alien-monster). Cute stuff <3
+
+**Step 4**
+Now we get into what will become nice dropdown menus. In fact, we going to create a div element with a class of `menu`. Ain't that nice. Here's my updated `left-nav`:
+```
+<div class="left-nav">
+    <a class="logo" href="">
+        <img src="./assets/8bit-alien.png" alt="">
+    </a>
+    <div class="menu"></div>
+</div>
+```
+We're going to need stuff inside our `menu`, right? So let's add stuff! I'm going to model my nav bar after a totally hypothetical, not-at-all-possible blog that I will 100% not use some day (heavy sarcasm). But you can do whatever, as long as you have enough stuff to work with.
+Let's add our stuff! Mine came out like this:
+```
+<div class="menu">
+    <ul class="menu-list">
+        <li>
+            <button class="dd-btn">About</button>
+            <div class="dd-about">
+                <ul>
+                    <li><a href="">Political Framework</a></li>
+                    <li><a href="">Personal Background</a></li>
+                    <li><a href="">Flavor and Filler</a></li>
+                </ul>
+            </div>
+        </li>
+        <li>
+            <button class="dd-btn">Blog</button>
+            <div class="dd-blog">
+                <ul>
+                    <li><a href="">Most Recent</a></li>
+                    <li><a href="">My Favorites</a></li>
+                    <li><a href="">My Least Favorites</a></li>
+                </ul>
+            </div>
+        </li>
+        <li>
+            <button class="dd-btn">Projects</button>
+            <div class="dd-projects">
+                <ul>
+                    <li><a href="">Project One</a></li>
+                    <li><a href="">Project Two</a></li>
+                    <li><a href="">Project Three</a></li>
+                </ul> 
+            </div>
+        </li>
+    </ul>
+</div>
+```
+That's a lot to take in. So here's the breakdown:
+- I created a `ul` element with `class="menu-list"` to hold our whole menu. A container.
+- Then I created three more `li` elements, like boxes within a larger box.
+- Then I added `button` elements to each one. These will be our "top level" navigation controls. The plan is for users to interact with these to trigger the dropdown, maybe click, maybe hover, maybe a little dance. Who knows.
+- Under each button I created yet another container that will hold a small list of links.
+- Oh! "dd" stands for "dropdown". And "btn" stands for "button". Incase that wasn't clear ^_^
