@@ -12,9 +12,19 @@ Important note, this is a work in progress.
 
 That's all! Let's make this thing!
 
+## Phase Zero: File Structure
+Computers just ove files, don't they? :P Let's create our initial file structure. Something like this should be a good place to start:
+```
+nav-bar-project/
+    index.html
+    style.css
+    script.js
+    assets/
+```
+
 ## Phase One: HTML
 **Step 1**
-Let's just generate some basic boiler html. Might as well make a css file and link that in the head. Your html file should look like this.
+Let's just generate some basic boiler html. Might as well make a css file and link that in the head. Your html file should look like this:
 ```
 <!DOCTYPE html>
 <html lang="en">
@@ -40,3 +50,19 @@ Now let's make create some html elements. I'm going to create sections or contai
 ```
 The reason for this will become apparent as we go.
 By the way, if you're using some version control system, this would be a good time to commit.
+**Step 3**
+I'm imagining that this nav is for some web app, aka a business or organization. And who loves logos more than businesses?! So we know our first element is going to be a logo. You can choose anything you like. Maybe this is a profile pic or something, idk.
+Whatever it is, throw it in our `assets` folder:
+```
+assets/
+    your-thing.jpg
+```
+Now we update out html. This is what my `left-nav` div looks like:
+```
+<div class="left-nav">
+    <a class="logo" href="">
+        <img src="./assets/8bit-alien.png" alt="">
+    </a>
+</div>
+```
+I got my asset from [favicon > alien monster](https://favicon.io/emoji-favicons/alien-monster). Cute stuff <3
