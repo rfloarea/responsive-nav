@@ -121,3 +121,27 @@ That's a lot to take in. So here's the breakdown:
 - Then I added `button` elements to each one. These will be our "top level" navigation controls. The plan is for users to interact with these to trigger the dropdown, maybe click, maybe hover, maybe a little dance. Who knows.
 - Under each button I created yet another container that will hold a small list of links.
 - Oh! "dd" stands for "dropdown". And "btn" stands for "button". Incase that wasn't clear ^_^
+
+**Step 5**
+Since this is a hypothetical project, I'm going to add one more totally random thing that will most certainly not be showing up on my website.
+
+We're going to add a contact form button right in the nav!! weeeeeeeeee lez go!!
+
+This is gunna live in the `mid-nav` element. Got it? Good.
+This is what I did:
+```
+<div class="mid-nav">
+    <div class="contact">
+        <button class="contact-btn">Contact Me</button>
+        <form action="">
+            <label for="">Name</label>
+            <input type="text">
+            <label for="">Email</label>
+            <input type="email">
+            <label for="">Spill your guts!!</label>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+        </form>
+    </div>
+</div>
+```
+If you don't know much about forms, that's fine. I don't either lol. Gotta start somewhere! Vive la resistance!! I dunno. It's late. I getting tired. Snack break!!
