@@ -164,4 +164,24 @@ Now let's add it to our nav. It's going to go in the `right-nav` element. Mine l
 
 You made it!!! Woah! I made it too :D Pretty cool stuff so far. I mean, the page looks like shit, but hopefully you learned something. And it's not over yet. In phase two we're going to start styling things. Fun stuff!
 
+## Phase Two: CSS
+Let's jump right in by undoing some default styles:
+```
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+ul {
+    list-style: none;
+}
+
+button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+```
+Looks a bit nicer to me.
 ->->->------------ TO BE CONTINUED ---------------->
