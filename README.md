@@ -123,28 +123,26 @@ That's a lot to take in. So here's the breakdown:
 - Oh! "dd" stands for "dropdown". And "btn" stands for "button". Incase that wasn't clear ^_^
 
 **Step 5**
-Since this is a hypothetical project, I'm going to add one more totally random thing that will most certainly not be showing up on my website.
+I like the idea of a contact form. But since I don't know how to implement that, let's go with something else.
 
-We're going to add a contact form button right in the nav!! weeeeeeeeee lez go!!
+Rather than my original idea of creating a dropdown contact form, let's just add a dropdown "info" menu. In this little thing, we're going to put our contact information, and a handy little "copy to clipboard" button. We'll figure this out later.
 
-This is gunna live in the `mid-nav` element. Got it? Good.
+Lez go!
+
+Oh also, this is gunna live in the `mid-nav` element.
 This is what I did:
 ```
 <div class="mid-nav">
     <div class="contact">
-        <button class="contact-btn">Contact Me</button>
-        <form action="">
-            <label for="">Name</label>
-            <input type="text">
-            <label for="">Email</label>
-            <input type="email">
-            <label for="">Spill your guts!!</label>
-            <textarea name="" id="" cols="30" rows="10"></textarea>
-        </form>
+        <button class="contact-btn">Email Me</button>
+        <div>
+            <p>rowen.floarea@proton.me</p>
+            <span><img src="/assets/clipboard.png" alt="clipboard icon"></span>
+        </div>
     </div>
 </div>
 ```
-If you don't know much about forms, that's fine. I don't either lol. Gotta start somewhere! Vive la resistance!! I dunno. It's late. I getting tired. Snack break!!
+I found a doofy little clipboard icon on [Flaticon > clipboard](https://www.flaticon.com/free-icons/clipboard). I think it's cute.
 
 **Step 6**
 HAMBURGEEEERRRRRZZ
