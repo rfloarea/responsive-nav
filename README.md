@@ -3,7 +3,7 @@
 ## Tools and Resources
 Used [this tutorial](https://www.freecodecamp.org/news/how-to-build-a-responsive-navigation-bar-with-dropdown-menu-using-javascript/) by [Vistor Eke](https://github.com/Evavic44/responsive-navbar-with-dropdown) as a guide.
 
-Used [boxicons](https://github.com/atisawd/boxicons).
+Used [Flaticon](https://www.flaticon.com/) for some flat icons...
 
 ## Overview
 This project will guide you through the steps to *learn* how to create your own responsive navigation bars. I will not focus on making things too pretty. That will be your job. Something you can do to take this project further and make it your own. I'll also keep the complexity to minimum where ever I can.
@@ -145,3 +145,25 @@ This is what I did:
 </div>
 ```
 If you don't know much about forms, that's fine. I don't either lol. Gotta start somewhere! Vive la resistance!! I dunno. It's late. I getting tired. Snack break!!
+
+**Step 6**
+HAMBURGEEEERRRRRZZ
+
+Okay, so, here's the part where we add that little Crabby Patty that people love so much. It'll become a useful tool for displaying our menu at small screen sizes. (and we'll hide it for larger screen).
+
+Now, go grab yourself a "hamburger" icon of whatever sort you like. I used [this page](https://www.flaticon.com/free-icons/hamburger). Lot's of fun stuff to choose from.
+
+Download it and chuck that thing into your assets folder.
+
+Now let's add it to our nav. It's going to go in the `right-nav` element. Mine looks something like this:
+```
+<div class="right-nav">
+    <a href="#">
+        <img src="./assets/hamburger.png" alt="hamburger icon">
+    </a>
+</div>
+```
+
+You made it!!! Woah! I made it too :D Pretty cool stuff so far. I mean, the page looks like shit, but hopefully you learned something. And it's not over yet. In phase two we're going to start styling things. Fun stuff!
+
+->->->------------ TO BE CONTINUED ---------------->
