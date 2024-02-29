@@ -71,7 +71,7 @@ I got my asset from [favicon > alien monster](https://favicon.io/emoji-favicons/
 Now we get into what will become nice dropdown menus. In fact, we going to create a div element with a class of `menu`. Ain't that nice. Here's my updated `left-nav`:
 ```
 <div class="left-nav">
-    <a class="logo" href="">
+    <a href="">
         <img src="./assets/8bit-alien.png" alt="">
     </a>
     <div class="menu"></div>
@@ -165,6 +165,7 @@ Now let's add it to our nav. It's going to go in the `right-nav` element. Mine l
 You made it!!! Woah! I made it too :D Pretty cool stuff so far. I mean, the page looks like shit, but hopefully you learned something. And it's not over yet. In phase two we're going to start styling things. Fun stuff!
 
 ## Phase Two: CSS
+**Step One**
 Let's jump right in by undoing some default styles:
 ```
 * {
@@ -184,4 +185,47 @@ button {
 }
 ```
 Looks a bit nicer to me.
+
+**Step Two**
+I know my brain is dieing to see these elements all in a nice line at the top of the screen. So let's do that. Time to FLEX!
+```
+header {
+    display: flex;
+    border-bottom: 1px solid black;
+}
+
+.left-nav {
+    display: flex;
+    background-color: chartreuse;
+}
+
+.menu-list {
+    display: flex;
+}
+
+.mid-nav {
+    background-color: aquamarine;
+}
+
+.right-nav {
+    background-color: chocolate;
+}
+```
+Aaaaah, I can literally breathe better now :D I like to add obnoxious colors with `background-color` or `border` so I can see sections better. I usually end up keeping them lol
+
+**Step Three**
+Now what? Now let's space stuff out so we can breathe even better.
+
+This is where I started:
+```
+header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+}
+
+img {
+    padding: 0.5rem;
+}
+```
 ->->->------------ TO BE CONTINUED ---------------->

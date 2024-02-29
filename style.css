@@ -13,3 +13,30 @@ button {
     background-color: transparent;
     cursor: pointer;
 }
+
+header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+}
+
+img {
+    padding: 0.5rem;
+}
+
+.left-nav {
+    display: flex;
+    background-color: chartreuse;
+}
+
+.menu-list {
+    display: flex;
+}
+
+.mid-nav {
+    background-color: aquamarine;
+}
+
+.right-nav {
+    background-color: chocolate;
+}
